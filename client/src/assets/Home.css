@@ -1,0 +1,43 @@
+#banner{
+    background-image: url("../../public/banner2.jpg");
+}
+
+#heading-logo{
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Abril Fatface', cursive;
+}
+#banner-head{
+   font-family: Montserrat;
+   margin:auto;
+   font-weight:bold;
+}
+.tagline{
+    display: "flex";
+    height: "40%";
+    flex-direction: "column";
+    justify-content: "center";
+    text-align: "center";
+}
+
+#banner-content{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-image: url("../../public/banner2.jpg"); */
+}
+
+#carousel-home{
+    display: flex;
+    height: 50%;
+    justify-content: center;
+}
+
+.carouselitem{
+    display: "flex"  !important;
+    flex-direction: "column" !important;
+    align-items: "center" !important;
+    cursor: "pointer" !important;
+    text-transform: "uppercase" !important;
+    color: "white" !important;
+  }
