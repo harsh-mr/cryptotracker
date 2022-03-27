@@ -28,12 +28,12 @@ const Carousel = () => {
         let profit = coin?.price_change_percentage_24h >= 0;
     
         return (
-          <Link className='carouselitem' to={`/coins/${coin.id}`}>
+          <Link className='carouselitem' to={`/coin/${coin.id}`}>
             <img
               src={coin?.image}
               alt={coin.name}
               
-              style={{ marginBottom: "10px" },{height:"80px"}}
+              style={{ marginBottom:"10px" },{height:"80px"}}
             />
             <span>
               {/* {coin?.symbol} */}

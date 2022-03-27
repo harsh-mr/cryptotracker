@@ -6,6 +6,22 @@
     /* font-family: 'Dancing Script', cursive; */
     font-family: 'Abril Fatface', cursive;
 }
+
+
+
+@media only screen and (min-width: 1280px) {
+    #border-div{
+        border-right:2px solid white !important
+    }
+}
+/* @media only screen and (max-width: 1279px)  {
+    #border-div{
+        border-bottom:2px solid white !important
+    }
+} */
+
+
+
 #banner-head{
    font-family: Montserrat;
    margin:auto;
